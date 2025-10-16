@@ -16,7 +16,7 @@
     }
 
     & .buttons {
-        justify-items: center;
+        justify-content: center;
         margin-top: 2rem;
     }
 }
@@ -25,9 +25,10 @@
     #hero {
         background: url(../Assets/Icons/bg-hero-desktop.svg) no-repeat bottom center/contain;
         padding-block: 15rem;
+        padding-top: 3rem;
 
         & img[src*="music"] {
-            width: 25.75;
+            width: 25.75rem;
         }
 
         & h1 {

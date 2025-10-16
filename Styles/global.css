@@ -97,7 +97,15 @@ img {
     display: inline-block;
 }
 
+.smartphone {
+    visibility: hidden;
+}
+
 @media (width >= 80em) {
+    img {
+        visibility: visible;
+    }
+
     :root {
         --fs-lg: 2rem;
         --fs-xl: 3rem;

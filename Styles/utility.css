@@ -21,6 +21,10 @@
     padding: 30px;
 }
 
+.center {
+    align-content: center;
+}
+
 .desktop-only {
     display: none;
 }
