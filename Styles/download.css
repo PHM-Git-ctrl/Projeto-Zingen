@@ -3,11 +3,16 @@
         padding: 3rem 1.5rem 15rem;
         position: relative;
 
-        img {
-            width: 14.5rem;
+        .guy-screaming {
+            width: 32.5%;
             position: absolute;
             bottom: 0;
             right: -3.5rem;
+            height: 115%;
+        }
+
+        .text-screaming {
+            max-width: 70%;
         }
     }
 
